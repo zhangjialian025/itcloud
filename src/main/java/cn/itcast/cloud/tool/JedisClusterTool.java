@@ -1,11 +1,7 @@
 package cn.itcast.cloud.tool;
 
-import java.io.IOException;
-import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
-
-import org.junit.Test;
 
 import redis.clients.jedis.BinaryJedisCluster;
 import redis.clients.jedis.HostAndPort;
