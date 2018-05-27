@@ -24,6 +24,4 @@ public class JedisClusterTool {
 	        
 	        jc = new BinaryJedisCluster(jedisClusterNodes);  
 	    }  
-	
-
 }	
