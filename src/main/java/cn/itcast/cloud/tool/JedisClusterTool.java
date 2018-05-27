@@ -24,11 +24,6 @@ public class JedisClusterTool {
 	        
 	        jc = new BinaryJedisCluster(jedisClusterNodes);  
 	    }  
-	@Test  
-    public void testClusterRedisSet() {  
-        jc.set("mydata".getBytes(), "haha".getBytes());
-        System.out.println(new String(jc.get("mydata".getBytes())));
-        System.out.println("time=" + new Date());  
-    }
+	
 
 }	
